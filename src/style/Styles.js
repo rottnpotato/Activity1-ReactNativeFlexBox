@@ -3,16 +3,17 @@ export const styles = StyleSheet.create({
     container: {
       flex: 1,
       backgroundColor: '#ecf0f1',
-      alignItems: 'left',
-      justifyContent: 'leading',
+      justifyContent: 'flex-start',
       marginRight: 20,
       marginLeft: 20,
+      alignItems: 'stretch',
+      flexWrap: 'wrap',
     },
     clrMode:{
-        width: 330,
+        width: 350,
         height: 240,
-        borderTopRightRadius: 30,
-        borderBottomRightRadius: 30,
+        borderTopRightRadius: 20,
+        borderBottomRightRadius: 20,
         marginTop: 20,
         borderWidth:1,
     },
@@ -32,7 +33,7 @@ export const styles = StyleSheet.create({
     },
     fontii:{
         marginLeft: 20,
-        fontSize: 12,
+        fontSize: 15,
         color: 'white',
     },
     fontiii:{
@@ -43,7 +44,7 @@ export const styles = StyleSheet.create({
     },
     boxi:{
         flexDirection: "row",
-        width: 330,
+        width: 350,
         height: 75,
         borderRadius: 15,
         marginBottom: 20,

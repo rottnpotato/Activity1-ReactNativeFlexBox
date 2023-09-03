@@ -18,7 +18,7 @@ export default function App() {
         
         </View>
         <Text style={styles.fonti}>James Anthony Estocado</Text>
-        <Text style={styles.fontii}>BS Information Technology</Text>
+        <Text style={styles.fontii}>BS Information Technology 3</Text>
       </View>
       <Text style={styles.fontiii}>My Subjects</Text>
       <View style={[
@@ -57,11 +57,9 @@ export default function App() {
          <Text style={styles.txtFont}>Quantitative Methods{"\n"}Units: 3</Text>
       </View>
       <Text style={{
-        flexDirection:'row',
-        textAlign:'right',
+        flexDirection: 'row',
+        textAlign: "right",
         color:'blue',
-        marginRight:20,
-
         }}>
         Click Here To See More
         </Text>
