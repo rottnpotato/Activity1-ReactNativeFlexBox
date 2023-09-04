@@ -63,4 +63,9 @@ export const styles = StyleSheet.create({
         fontSize: 13,
         color: 'black',
     },
+    btmFont:{
+            flexDirection: 'row',
+            textAlign: "right",
+            color:'blue', 
+    },
   });
